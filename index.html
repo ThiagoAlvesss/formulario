@@ -1,0 +1,119 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade Padrões web</title>
+        <style>
+            img {text-align: center; width: 30%; margin: 0 auto;}
+        h2 { color: cadetblue;}
+
+        </style>
+    </head>
+    <body>
+        <img src="Sem título.png" width="50%">
+        <center><h2>Disciplina: Padrões web</h2>
+        <p>Grupo:</p>
+        <p>Cláudia Efigênia Pereira Silva <br>
+            Emerson de Souza Dantas <br>
+            Kalebe Mendes<br>
+            Micaela Firmino da Silva <br>
+            Rodrigo Janari Pinto <br>
+            Thiago Alves de Medeiros Souza <br>
+            </p><br>
+        </center>
+
+            <h2>Atividade - Formulário HTML</h2>
+            <p> 
+                <a href="formulario.html">
+                    Clique aqui para acessar o formulário!
+                </a>
+            </p>
+            <ol type="a">
+                <li>Na tag <b>input</b> com atributo <b>type="text"</b>, para que serve o atributo <b>"placeholder"</b>? <br>
+                <br><i><p style="color: crimson;">Refere-se a uma dica que descreve o valor esperado para que o usuário insira no campo.</p></i></li>
+                <p>Exemplo:</p>
+                <img src="img4form.png">
+                <fieldset style="border: solid; width: 20%;">
+                <form>
+                    <label for="CPF"> Insira seu CPF: </label>
+                    <input placeholder="111.222.333"></form></fieldset><br>
+                
+                <li>Na tag <b>input</b> com atributo <b>type="radio"</b> ou <b>type="checkbox"</b>, para que serve o atributo <b>"checked"</b>? <br>
+                    <br><i><p style="color: crimson;">Quando presente no código, especifica que um elemento <b>input</b>  deve ser pré-selecionado (marcado) quando a página for carregada.</i></li></p><br>
+                    <p>Exemplo:</p>
+                    <img src="img5form.png" alt="">
+                    <fieldset style="border: solid; width: 8%;">
+                    <input type="radio" checked> 
+                    <input type="checkbox" checked> </fieldset><br>
+                
+                <li>Na tag <b>input</b> para que serve o atributo "<b>value</b>"?<br>
+                    <br><i><p style="color: crimson;">Quando o atributo <b>value</b> está presente, ele especifica o valor inicial do elemento input.</i></li><br></p>
+                    <p>Exemplo:</p>
+                    <img src="img6form.png" alt=""><br>
+                    
+                <li>Que atributo deve ser utilizado para agrupar vários botões de rádio em um formulário de modo que apenas um deles fique marcado de cada vez?<br>
+                    <br><i><p style="color: crimson;">O atributo <b>"name"</b>. Cada botão de rádio dentro do grupo deve ter o mesmo valor para o atributo "name",pois é isso que indica que eles fazem parte do mesmo grupo de seleção exclusiva.</i></p><br>
+                    <p>Exemplo:</p>
+                    <img src="img2form.png" alt="">
+                    <fieldset style="border: solid; width: 40%;">
+                    <form>
+                        <label for="sexo"> Sexo: </label>
+                        <input type="radio" id="sexo" name="sexo" value=""> <!--name-->
+                        <label for="sexo">Masc</label>
+                        <input type="radio" id="sexo" name="sexo" value=""> <!--name-->
+                        <label for="sexo">Fem</label>
+                        <input type="radio" id="sexo" name="sexo" value=""> <!--name-->
+                        <label for="sexo">Prefiro não informar</label><br>
+                    </form>
+                </fieldset>
+                    </li><br>
+                <li>Para que serve a tag <b>"label"</b>? Para que serve o atributo "for" nessa tag?
+                    <br><i><p style="color: crimson;">A tag <b>label</b> define um rótulo para muitos elementos de formulário. Esse elemento
+                        é útil para usuários de leitor de tela, porque o leitor de tela irá ler em voz alta o rótulo quando
+                        o usuário se concentrar no elemento de entrada. Além disso, o elemento <b>label</b> também ajuda usuários que têm dificuldade em clicar em regiões muito pequenas (como botões de rádio ou caixas de seleção) - porque quando o usuário clica no texto dentro do elemento <b>label</b> ele ativa o botão de rádio/caixa de seleção.
+                        O atributo for da tag <b>label</b> deve ser igual ao atributo id do elemento <b>input</b> para vinculá-los.</i></li></p>
+                <li>Na tag <b>option</b> para que serve o atributo "selected"?<br>
+                    <br><i><p style="color: crimson;">Para definir uma opção pré-selecionada.</p></i><br>
+                <p>Exemplo:</p>
+                <img src="img3form.png" alt="">    
+                </li>
+                <li>Nas tags de formulário para que serve o atributo "required"?<br>
+                    <br><i><p style="color: crimson;">O atributo required especifica que um campo de entrada deve ser preenchido antes de enviar o formulário. Campo obrigatório.</i>
+                    Funciona com os seguintes tipos de entrada: texto, pesquisa, url, tel, e-mail, senha, selecionadores de data, número, caixa de seleção, rádio e arquivo.</p>
+                    </li>
+                <li>Para que serve a tag <b>"textarea"</b>?<br>
+                    <br><i><p style="color: crimson;">A tag <b>textarea</b> inclui um texto (múltiplas linhas) dentro do campo. Pode conter um número ilimitado de caracteres e o texto é renderizado em uma fonte de largura fixa (geralmente Courier).</i></p>
+                    <p>Exemplo</p>
+                    <textarea>Escreva seu texto aqui!</textarea><br>
+                    <img src="img7form.png" alt=""><br>
+                </li>
+                <li>Na tag <b>"form"</b>para que serve o atributo "action"?<br>
+                    <br><i><p style="color: crimson;">Para manipular o formulário e tratar osdados do formulário.É para onde serão direcionados os dados informados no formulário.
+                        Esse programa fica no servidor que pode ser escrito em várias linguagens, como PHP, Python, Node JavaScript.
+                        </p></i>
+                        <p>Exemplo</p>
+                        <img src="img8form.png" alt="">
+                </li>
+                <li>Na tag <b>form</b> para que serve o atributo "method"?<br>
+                    <br><i><p style="color: crimson;">O atributo method define qual o método HTTP para enviar os dados (ele pode ser "GET" ou "POST")</p><br></i>
+                    </li>
+                <li>Para que o valor digitado de uma senha não apareça na barra de endereços do navegador, qual deve ser o valor do atributo "method" na tag <b>form</b>?
+                    <br><i><p style="color: crimson;">O valor do atributo method na tag <b>form</b> deve ser “POST” para que não apareça a senha na barra de endereços.</i>
+                        <p>Exemplo</p>
+                        <img src="img9form.png" alt="">
+                    </li>
+                <li>Qual valor deve ser informado no atributo "method" na tag <b>form</b> em um formulário que será usado para fazer upload de arquivos?
+                    <br><i><p style="color: crimson;">O valor do atributo method na tag <b>form</b> para fazer upload de arquivos deve ser o “POST”.</p></i>
+                </li><br>
+                <li>O que as tags <b>fieldset</b> e <b>legend</b> produzem?
+                    <br><i><p style="color: crimson;">A <b>fieldset</b> tag é usada para agrupar elementos relacionados em um formulário.
+                    A <b>fieldset</b> tag desenha uma caixa ao redor dos elementos relacionados.
+                    A tag <b>legend</b> é usada para definir uma legenda para o <b>fieldset</b> elemento.</i>
+                    <p>Exemplo</p>
+                    <img src="img10form.png" alt="">
+                    </li>
+            </ol>
+    </body>
+    </html>

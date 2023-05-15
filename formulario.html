@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    </head>
+    <body>
+
+        <fieldset style="border:solid"> <!--style e fieldset-->
+
+        <form>
+            <label for="nome"> Nome: </label>
+            <input type="text" id="nome" name = "Nome" value=""><br>
+            <label for="datadenasc"> Data de Nascimento: </label>
+            <input type="text" id="datadenasc" Data de Nascimento value="       /      /   "><br>
+            <label for="sexo"> Sexo: </label>
+            <input type="radio" id="sexo" name="sexo" value=""> <!--name-->
+            <label for="sexo">Masc</label>
+            <input type="radio" id="sexo" name="sexo" value=""> <!--name-->
+            <label for="sexo">Fem</label>
+            <input type="radio" id="sexo" name="sexo" value=""> <!--name-->
+            <label for="sexo">Prefiro não informar</label><br>
+            <label for="Endereço"> Endereço:</label><br>
+            <label for="Lograd">Logradouro:</label>
+            <input type="text" name="Logradouro"id="lograd" value=""><br>
+            <label for="bairro">Bairro:</label>
+            <input type="text" id= "bairro" name="bairro" value=""> <br>
+            <label for="cid">Cidade:</label>
+            <input type="text" id="cid" name="cid" value=""> <br>
+            <label for="estado">UF:</label>
+            <select name="estado" id="estado">
+                <option name="estado" value="DF">DF</option> <!--option-->
+                <option name="estado" value="GO">GO</option> <!--option-->
+                <option name="estado" value="SP">SP</option> <!--option-->
+            </select><br>
+            <label for="email">Email:<label>
+            <input type="text" id= "email" name="email" value=""><br>
+            <input type="submit" id="Enviar"value="Enviar"> <!--input não button-->
+            <input type="reset" id="Limpar" value="Limpar"> <!--input não button-->
+
+        </form>
+    </fieldset>
+    <p> 
+        <a href="Index.html">
+            Voltar para a lista de exercícios.
+        </a>
+    </p>
+    
+    
+</body>
+</html>
